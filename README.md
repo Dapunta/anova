@@ -1,7 +1,7 @@
 # ANALYSIS OF VARIANCE (ANOVA)
 
-Mata Kuliah : Probabilitas & Statistik
-Kelas : B
+Mata Kuliah : Probabilitas & Statistik  
+Kelas : B  
 Kelompok : 3
 
 | NRP        | Nama                         |
@@ -83,7 +83,7 @@ Semakin kecil P-Value, semakin besar keyakinan bahwa perbedaan rata-rata yang di
 ANOVA yang digunakan untuk menguji satu faktor atau variabel bebas *(independen)* terhadap satu variabel terikat *(dependen)*.
 - Tujuan : Mengetahui apakah terdapat perbedaan rata-rata antar lebih dari dua grup dari satu faktor.
 - Contoh : Menguji apakah rata-rata nilai mahasiswa berbeda antara jurusan A, B, dan C.
-- Rumus :
+- Rumus :  
     ![anova_one_way](/assets/anova_one_way.png)
 
 **Two-Way ANOVA (ANOVA Dua Arah)**
@@ -95,7 +95,7 @@ ANOVA yang digunakan untuk menguji dua faktor secara bersamaan, dan dapat mengan
     - Apakah interaksi antara A dan B juga berpengaruh?
 
 - Contoh : Menguji pengaruh jenis pupuk (A, B) dan jenis tanah (1, 2, 3) terhadap hasil panen.
-- Rumus :
+- Rumus :  
     ![anova_two_way](/assets/anova_two_way.png)
 
 **Repeated Measures ANOVA**
