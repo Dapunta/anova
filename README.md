@@ -18,7 +18,8 @@ Kelompok : 3
     - [1.3. Distribusi F](#13-distribusi-f)
     - [1.4. Distribusi t](#14-distribusi-t)
     - [1.5. Distribusi t vs Distribusi F](#15-distribusi-t-vs-distribusi-f)
-    - [1.6. Jenis-jenis ANOVA](#16-jenis-jenis-anova)
+    - [1.6. P-Value dalam ANOVA](#16-p-value-dalam-anova)
+    - [1.7. Jenis-jenis ANOVA](#17-jenis-jenis-anova)
 - [Materi 2 : Studi Kasus One-Way ANOVA](#materi-2--studi-kasus-one-way-anova)
     - [Notebook Materi 2](/model/one_way/anova_one_way.ipynb)
 - [Materi 3 : Studi Kasus Two-Way ANOVA](#materi-3--studi-kasus-two-way-anova)
@@ -63,7 +64,20 @@ ANOVA menggunakan F-statistic untuk mengukur apakah variansi antar grup lebih be
 | Nilai bisa **negatif atau positif**       | Hanya bernilai **positif**                          |
 | Dipengaruhi oleh **derajat bebas** (df)   | Dipengaruhi oleh dua df: df1 dan df2                |
 
-### 1.6. Jenis-Jenis ANOVA
+### 1.6. P-Value dalam ANOVA
+
+P-Value (nilai probabilitas) adalah peluang memperoleh hasil seperti yang diamati (atau lebih ekstrem) jika hipotesis nol (H₀) benar.
+
+Dalam konteks ANOVA, P-Value mengukur seberapa besar kemungkinan bahwa perbedaan rata-rata antar grup terjadi secara kebetulan.
+
+Interpretasi umum :
+- Jika P-Value < 0.05 : Tolak H₀ → ada perbedaan yang signifikan secara statistik antar grup.
+- Jika P-Value ≥ 0.05 : Gagal tolak H₀ → tidak cukup bukti untuk menyatakan ada perbedaan signifikan.
+
+P-Value dihitung dari distribusi F berdasarkan F-statistic dan derajat kebebasan antar dan dalam grup.
+Semakin kecil P-Value, semakin besar keyakinan bahwa perbedaan rata-rata yang diamati bukan karena kebetulan.
+
+### 1.7. Jenis-Jenis ANOVA
 
 **One-Way ANOVA**
 ANOVA yang digunakan untuk menguji satu faktor atau variabel bebas *(independen)* terhadap satu variabel terikat *(dependen)*.
